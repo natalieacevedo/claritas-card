@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+$colorofcard :rgb(161, 220, 235);
+
+$values-of-border: 3px rgb(223, 92, 114) solid;
+
+
+ 
+.cardBody{
+    height: 50%;
+    width: 40%;
+    margin: 0 auto;
+    background-color: $colorofcard;
+    border: 10mm ridge rgba(170, 50, 220, .6);
+    font-family: 'Indie Flower', cursive;
+
+    h2,h3,p{
+        text-align: center;
+        font-size: 1.8rem;
+        color: rgb(131, 37, 68);
+    }
+
+    img{
+        position: relative;
+        left: 11%;
+        max-width: 100%;
+        height: auto;
+       
+    }
+}
